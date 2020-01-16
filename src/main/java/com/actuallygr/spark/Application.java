@@ -2,6 +2,7 @@ package com.actuallygr.spark;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.Level;
+import scala.reflect.internal.Trees;
 
 public class Application {
 	
@@ -42,7 +43,10 @@ public class Application {
 //		StreamingSocketApp streamingSocketApp = new StreamingSocketApp();
 //		streamingSocketApp.start();
 
-		JigsawEmailNG jigsawEmailNG = new JigsawEmailNG();
-		jigsawEmailNG.start();
+//		JigsawEmailNG jigsawEmailNG = new JigsawEmailNG();
+//		jigsawEmailNG.start();
+
+		AssignmentRdd assignmentRdd = new AssignmentRdd();
+		assignmentRdd.start();
 	}
 }
