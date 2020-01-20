@@ -46,7 +46,13 @@ public class Application {
 //		JigsawEmailNG jigsawEmailNG = new JigsawEmailNG();
 //		jigsawEmailNG.start();
 
-		AssignmentRdd assignmentRdd = new AssignmentRdd();
-		assignmentRdd.start();
+//		AssignmentRdd assignmentRdd = new AssignmentRdd();
+//		assignmentRdd.start();
+
+		CapstoneProject capstoneProject = new CapstoneProject();
+		capstoneProject.start();
+
+//		Multithreading multithreading = new Multithreading();
+//		multithreading.start();
 	}
 }
